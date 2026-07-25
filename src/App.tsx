@@ -1,6 +1,6 @@
 import { useLenis } from '@/hooks/useLenis';
 import CustomCursor from '@/components/UI/CustomCursor';
-import LoadingScreen from '@/components/UI/LoadingScreen';
+
 import AnimatedBackground from '@/components/UI/AnimatedBackground';
 import ScrollProgress from '@/components/UI/ScrollProgress';
 import CommandPalette from '@/components/UI/CommandPalette';
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <LoadingScreen />
+      
       <CustomCursor />
       <AnimatedBackground />
       <ScrollProgress />
