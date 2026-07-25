@@ -459,76 +459,6 @@
     color:var(--primary);
 }
 
-/* ---------------- RESPONSIVE ---------------- */
-
-@media(max-width:1024px){
-
-.hero-visual{
-    width:520px;
-    height:520px;
-}
-
-.orbit-outer{
-    width:440px;
-    height:440px;
-}
-
-.orbit-middle{
-    width:350px;
-    height:350px;
-}
-
-.orbit-inner{
-    width:250px;
-    height:250px;
-}
-
-.hero-core{
-    width:200px;
-    height:200px;
-}
-
-}
-
-@media(max-width:768px){
-
-.hero-visual-wrap{
-    min-height:500px;
-}
-
-.hero-visual{
-    width:390px;
-    height:390px;
-}
-
-.orbit-outer{
-    width:330px;
-    height:330px;
-}
-
-.orbit-middle{
-    width:260px;
-    height:260px;
-}
-
-.orbit-inner{
-    width:190px;
-    height:190px;
-}
-
-.hero-core{
-    width:150px;
-    height:150px;
-}
-
-.skill-node{
-
-    font-size:.72rem;
-
-    padding:9px 12px;
-}
-
-}
 
 /* =========================================================
    MICRO INTERACTIONS
@@ -650,11 +580,14 @@
     --hero-scale: 0.85;
   }
   .hero-visual-wrap {
-    margin-top: -55px;
-    margin-bottom: 55px;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
     transform: none;
   }
   #home {
+    display: block;
+    height: auto;
+    min-height: auto;
     padding-top: 7rem;
     text-align: center;
   }
@@ -674,9 +607,19 @@
 
 @media (max-width: 768px) {
   :root {
-    --hero-scale: 0.65;
+    --hero-scale: 0.75;
+  }
+  .hero-visual-wrap {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .skill-node {
+    font-size: 0.72rem;
+    padding: 9px 12px;
   }
   #home {
+    display: block;
+    height: auto;
     min-height: auto;
     padding-top: 6rem;
     padding-bottom: 5rem;
@@ -698,7 +641,11 @@
 
 @media (max-width: 480px) {
   :root {
-    --hero-scale: 0.5;
+    --hero-scale: 0.55;
+  }
+  .hero-visual-wrap {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   #home { padding-inline: 1.2rem; }
 
@@ -714,7 +661,11 @@
  ========================================================= */
 @media (max-width: 360px) {
   :root {
-    --hero-scale: 0.42;
+    --hero-scale: 0.48;
+  }
+  .hero-visual-wrap {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
 

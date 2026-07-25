@@ -1,5 +1,6 @@
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { Menu, X } from 'lucide-react';
 
 import MagneticButton from '@/components/UI/MagneticButton';
 import { useActiveSection } from '@/hooks/useActiveSection';
@@ -74,41 +75,53 @@ export default function Navbar() {
               ))}
             </div>
 
-           <div className="flex items-center justify-end">
-  <MagneticButton
-    onClick={() => scrollTo("contact")}
-    className="hidden lg:inline-flex"
-  >
-    Let's Connect
-  </MagneticButton>
-</div>
+            <div className="flex items-center justify-end gap-4">
+              <MagneticButton
+                onClick={() => scrollTo("contact")}
+                className="hidden lg:inline-flex"
+              >
+                Let's Connect
+              </MagneticButton>
+
+              {/* Mobile Menu Toggle Button */}
+              <button
+                onClick={() => setMobileOpen(!mobileOpen)}
+                className="lg:hidden p-2 text-muted hover:text-white transition-colors"
+                aria-label={mobileOpen ? "Close Menu" : "Open Menu"}
+              >
+                {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
           </div>
         </div>
       </motion.nav>
 
-      {mobileOpen && (
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="fixed top-16 left-0 right-0 z-[99] glass border-t border-white/5 lg:hidden"
-        >
-          <div className="hidden lg:flex justify-center items-center gap-10">
-            {navLinks.map((link) => (
-              <button
-                key={link.id}
-                onClick={() => scrollTo(link.id)}
-                className={`text-left px-4 py-3 rounded-xl text-sm font-medium transition-colors ${
-                  activeSection === link.id
-                    ? 'bg-primary/20 text-white'
-                    : 'text-muted hover:text-white hover:bg-white/5'
-                }`}
-              >
-                {link.label}
-              </button>
-            ))}
-          </div>
-        </motion.div>
-      )}
+      <AnimatePresence>
+        {mobileOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="fixed top-20 left-0 right-0 z-[99] glass border-t border-white/5 lg:hidden shadow-2xl"
+          >
+            <div className="flex flex-col p-4 gap-2 bg-[#090B16]/95 backdrop-blur-2xl">
+              {navLinks.map((link) => (
+                <button
+                  key={link.id}
+                  onClick={() => scrollTo(link.id)}
+                  className={`text-left px-5 py-3.5 rounded-xl text-sm font-medium transition-colors ${
+                    activeSection === link.id
+                      ? 'bg-primary/20 text-white'
+                      : 'text-muted hover:text-white hover:bg-white/5'
+                  }`}
+                >
+                  {link.label}
+                </button>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 }

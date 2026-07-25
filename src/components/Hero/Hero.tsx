@@ -128,7 +128,7 @@ export default function Hero() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-10 max-w-[1450px] mx-auto grid lg:grid-cols-[1fr_1.08fr] gap-8 xl:gap-12 items-center w-full">
+        className="relative z-10 max-w-[1450px] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1.08fr] gap-8 xl:gap-12 items-center w-full">
         {/* ================= LEFT ================= */}
         <motion.div
   variants={fadeLeft}
