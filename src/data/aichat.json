@@ -1,0 +1,26 @@
+{
+  "greeting": "Hi! I'm Vineet's AI assistant. Ask me anything about his work, skills, or experience.",
+  "suggestions": [
+    "What are your main skills?",
+    "Tell me about your projects",
+    "What experience do you have?",
+    "How can I contact you?"
+  ],
+  "responses": {
+    "skills": "Vineet is an aspiring AI/ML Engineer specializing in Python, Machine Learning, LLMs, RAG, Deep Learning, NLP,  Agentic AI, LangChain, tensorflow and AI application development. He has hands-on experience building end-to-end intelligent systems, from data preprocessing and model training to LLM-powered applications and production-ready AI solutions.",
+    
+  "projects": [
+    "AI Career Skill Gap Intelligence Platform",
+    "Sentiment-Aware Recommendation System through NLP",
+    "Heart Disease Survival Prediction Model",
+    "RAG Chatbot",
+    "LLM-Powered Chatbot"
+  ],
+  
+    "contact": "You can reach Vineet at vineetdhiman092005@gmail.com or connect on LinkedIn and GitHub. He's currently open to new opportunities!",
+    "education": "Vineet completed his Bachelor of Technology (B.Tech) in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning, building a strong foundation in machine learning, deep learning, NLP, and AI application development.",
+    "default": "I can tell you about Vineet's skills, projects, experience, education, or how to contact him. What would you like to know?",
+    "llm": "Vineet works extensively with LLMs integration including OpenAI GPT, Claude, and Gemini. He builds RAG systems, agentic workflows, and  LLM applications using LangChain.",
+   "agents": "Vineet is expanding his expertise in Agentic AI by working with LangGraph, CrewAI, and AutoGen to build intelligent multi-agent applications, automate workflows, and explore advanced AI orchestration."
+  }
+}

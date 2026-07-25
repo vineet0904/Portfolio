@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "AI Career Skill Gap Intelligence Platform",
+      "category": "AI/ML",
+      "description": "An AI-powered career intelligence system that parses resumes, predicts suitable job roles using ML, and detects skill gaps through a hybrid exact + semantic (FAISS) + rule-based matching engine. It then uses an LLM to generate personalized advice, recommendations, and a phase-wise learning roadmap.",
+      "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "tags": [
+        "FastAPI",
+        "FAISS",
+        "Sentence Transformers",
+        "Machine Learning",
+        "Ollama",
+        "SQLAlchemy",
+        "Prompt Engineering"
+      ],
+      "features": [
+        "Resume parsing & NLP-based skill extraction",
+        "ML-based job role prediction",
+        "3-layer skill gap engine (Exact + Semantic FAISS + Rule-based)",
+        "LLM-generated advice, recommendations & roadmap",
+        "Readiness score & skill coverage analytics",
+        "Interactive dashboard with charts & trend visualization"
+      ],
+      "github": "#",
+      "demo": "#",
+      "featured": true
+    },
+    {
+  "id": 4,
+  "title": "Sentiment aware recommendation system using NLP",
+  "category": "NLP",
+  "description": "A hybrid AI recommendation system that understands Hinglish, typos, and natural queries — using intent detection, sentiment (TF-IDF) and emotion analysis (DistilRoBERTa) to rank smartphones with a multi-factor weighted scoring engine.",
+  "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
+  "tags": [
+    "FastAPI",
+    "FAISS",
+    "BERT",
+    "SentenceTransformers",
+    "Zero-Shot",
+    "TF-IDF",
+    "logistic regression"
+  ],
+  "features": [
+    "Multi-layer intent detection (spell correction, semantic similarity, zero-shot classification)",
+    "Hinglish & typo-tolerant query understanding",
+    "Sentiment analysis via TF-IDF + Logistic Regression",
+    "Emotion detection using DistilRoBERTa (joy, anger, fear, etc.)",
+    "Weighted multi-factor product ranking (rating, sentiment, emotion, feature match, brand)",
+    "FastAPI backend with React frontend for real-time recommendations"
+  ],
+  "github": "#",
+  "demo": "#",
+  "featured": true
+},
+   {
+  "id": 3,
+  "title": "Heart Disease SurvivalPrediction Model",
+  "category": "ML",
+  "description": "A machine learning pipeline for heart disease prediction that tackles class imbalance and interpretability using SMOTE+ENN hybrid sampling, cost-sensitive XGBoost/Random Forest, RFE+SHAP feature selection, and an ensemble voting classifier — tuned via GridSearchCV/Optuna.",
+  "image": "/images/heart.png",
+  "tags": [
+    "Python",
+    "XGBoost",
+    "LightGBM",
+    "Scikit-Learn",
+    "SMOTE"
+  ],
+  "features": [
+    "SMOTE + ENN hybrid sampling for class imbalance",
+    "Cost-sensitive XGBoost & Random Forest classification",
+    "Hybrid RFE + SHAP feature selection for interpretability",
+    "Ensemble voting (XGBoost + LightGBM + Random Forest)",
+    "Hyperparameter tuning with GridSearchCV & Optuna",
+    "Evaluation via Sensitivity, G-mean, ROC-AUC & MCC"
+  ],
+  "github": "#",
+  "demo": "#",
+  "featured": true
+},
+    {
+      "id": 4,
+      "title": "RAG Chatbot",
+      "category": "LLMs",
+      "description": "A Retrieval-Augmented Generation chatbot capable of answering user queries using vector search and LLMs.",
+      "image": "/images/rag.jpg",
+      "tags": [
+        "RAG",
+        "LangChain",
+        "ChromaDB",
+        "FastAPI"
+      ],
+      "features": [
+        "Vector search",
+        "Context-aware responses",
+        "Document retrieval",
+        "Streaming responses"
+      ],
+      "github": "#",
+      "demo": "#",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "LLM-Based Chatbot",
+      "category": "Agentic AI",
+      "description": "An AI chatbot powered by Large Language Models with conversational memory and intelligent response generation.",
+      "image":  "/images/img.png",
+      "tags": [
+        "LLMs",
+        "Prompt Engineering",
+        "FastAPI",
+        "gemini",
+        "frontend"
+      ],
+      "features": [
+        "Context-aware conversations",
+        "Prompt engineering",
+        "Conversation memory",
+        "Fast API integration"
+      ],
+      "github": "#",
+      "demo": "#",
+      "featured": true
+    }
+  ],
+  "categories": [
+    "All",
+    "AI/ML",
+    "LLMs",
+    "ML",
+    "Agentic AI",
+    "NLP"
+  ]
+}

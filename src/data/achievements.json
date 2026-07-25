@@ -1,0 +1,41 @@
+{
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Python with ML intern",
+      "org": "EI Systems 2024",
+      "type": "Internship",
+      "description": "Hands-on work with Python-based machine learning fundamentals and practical workflows.",
+      "icon": "Award",
+      "date": "2024"
+    },
+    {
+      "id": 2,
+      "title": "Developement Intern",
+      "org": "Okie Dokie Solutions",
+      "type": "Internship",
+      "description": "Develop and build frontend website with Angular",
+      "icon": "Award",
+      "date": "2025"
+    },
+    {
+  "id": 3,
+  "title": "GenAI Powered Data Analytics Job Simulation",
+  "org": "Tata iQ ",
+  "type": "Virtual Experience",
+  "description": "Performed AI-powered data analytics for financial risk prediction, designed delinquency prediction models, and created explainable AI recommendations to support customer collections strategy.",
+  "icon": "certification",
+  "date": "2026"
+},
+   {
+  "id": 4,
+  "title": "Hackathon Participant",
+  "org": "HackOps, Savisjar",
+  "type": "Hackathon",
+  "description": "Collaborated in a team to design and develop AI-powered solutions under strict time constraints, strengthening problem-solving, rapid prototyping, and teamwork skills.",
+  "icon": "Trophy",
+  "date": "2024"
+}
+    
+  ]
+}

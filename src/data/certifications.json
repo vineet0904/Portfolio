@@ -1,0 +1,58 @@
+{
+  "certifications": [
+    {
+      "id": 1,
+      "name": "AWS Machine Learning Specialty",
+      "issuer": "Amazon Web Services",
+      "date": "2024",
+      "credentialId": "AWS-MLS-2024-VD",
+      "url": "#",
+      "skills": ["SageMaker", "Model Deployment", "MLOps", "AWS AI Services"]
+    },
+    {
+      "id": 2,
+      "name": "Google Cloud Professional ML Engineer",
+      "issuer": "Google Cloud",
+      "date": "2023",
+      "credentialId": "GCP-MLE-2023-VD",
+      "url": "#",
+      "skills": ["Vertex AI", "TensorFlow", "Model Pipeline", "MLOps"]
+    },
+    {
+      "id": 3,
+      "name": "Deep Learning Specialization",
+      "issuer": "DeepLearning.AI (Coursera)",
+      "date": "2022",
+      "credentialId": "DLS-2022-VD",
+      "url": "#",
+      "skills": ["Neural Networks", "CNN", "RNN", "Hyperparameter Tuning"]
+    },
+    {
+      "id": 4,
+      "name": "TensorFlow Developer Certificate",
+      "issuer": "Google",
+      "date": "2022",
+      "credentialId": "TFD-2022-VD",
+      "url": "#",
+      "skills": ["TensorFlow", "Keras", "Model Building", "Deployment"]
+    },
+    {
+      "id": 5,
+      "name": "LangChain & LLM Application Development",
+      "issuer": "DeepLearning.AI",
+      "date": "2023",
+      "credentialId": "LC-LLM-2023-VD",
+      "url": "#",
+      "skills": ["LangChain", "LLMs", "RAG", "Prompt Engineering"]
+    },
+    {
+      "id": 6,
+      "name": "PyTorch Foundations",
+      "issuer": "Udacity",
+      "date": "2022",
+      "credentialId": "PTF-2022-VD",
+      "url": "#",
+      "skills": ["PyTorch", "Deep Learning", "Tensor Operations"]
+    }
+  ]
+}

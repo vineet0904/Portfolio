@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "id": "programming",
+      "name": "Programming",
+      "icon": "Code",
+      "skills": [
+        { "name": "Python", "icon": "python" },
+        { "name": "C++", "icon": "cplusplus" },
+        {"name":"C","icon":"c"},
+        { "name": "SQL", "icon": "sql" }
+
+      ]
+    },
+    {
+      "id": "aiml",
+      "name": "AI / ML",
+      "icon": "Brain",
+      "skills": [
+        { "name": "Scikit-Learn", "icon": "scikit" },
+        { "name": "NumPy", "icon": "numpy" },
+        { "name": "Pandas", "icon": "pandas" },
+        { "name": "OpenCV", "icon": "opencv" },
+        { "name": "Matplotlib", "icon": "matplotlib" },
+        { "name": "Seaborn", "icon": "seaborn" },
+        { "name": "Hugging Face", "icon": "huggingface" }
+      ]
+    },
+    {
+      "id": "deeplearning",
+      "name": "Deep Learning",
+      "icon": "Cpu",
+      "skills": [
+        { "name": "TensorFlow", "icon": "tensorflow" },
+        { "name": "PyTorch", "icon": "pytorch" },
+        { "name": "Keras", "icon": "keras" },
+        { "name": "BERT", "icon": "Bert" },
+        { "name": "DistilRoBERTa", "icon": "distilroberta" }
+      ]
+    },
+    {
+      "id": "llms",
+      "name": "LLMs & Agentic AI",
+      "icon": "Bot",
+      "skills": [
+        { "name": "OpenAI", "icon": "openai" },
+        { "name": "Gemini", "icon": "gemini" },
+        { "name": "Sentence Transformers", "icon": "transformers" },
+        { "name": "LangChain", "icon": "langchain" },
+        { "name": "RAG", "icon": "rag" },
+        { "name": "Prompt Engineering", "icon": "prompt" },
+        { "name": "AI Agents", "icon": "agents" }
+      ]
+    },
+    
+  
+    {
+      "id": "databases",
+      "name": "Databases",
+      "icon": "Database",
+      "skills": [
+        { "name": "PostgreSQL", "icon": "postgres" },
+        { "name": "MongoDB", "icon": "mongodb" },
+        { "name": "FAISS", "icon": "faiss" }
+        
+      ]
+    },
+   
+   {
+  "id": "tools",
+  "name": "Developer Tools",
+  "icon": "Settings",
+  "skills": [
+    { "name": "Git", "icon": "git" },
+    { "name": "GitHub", "icon": "github" },
+    { "name": "Postman", "icon": "postman" },
+    { "name": "VS Code", "icon": "vscode" },
+    { "name": "Power BI", "icon": "powerbi" },
+    { "name": "MS Excel", "icon": "excel" },
+    { "name": "ChatGPT", "icon": "chatgpt" },
+    { "name": "Claude", "icon": "claude" },
+    { "name": "Antigravity", "icon": "antigravity" }
+  ]
+}
+  ]
+}

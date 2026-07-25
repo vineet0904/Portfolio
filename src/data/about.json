@@ -1,0 +1,18 @@
+{
+  "summary": "Aspiring AI/ML engineer with hands-on experience across the ML lifecycle — from data preprocessing and model training to building end-to-end intelligent systems",
+  "highlights": [
+   "Built a 6-model hybrid AI pipeline (TF-IDF, BERT, DistilRoBERTa, SentenceTransformer, Zero-Shot Classification) for sentiment-aware recommendations  92–95% accuracy",
+    "Developed an NLP resume-parsing platform with a 3-layer skill-gap engine using FAISS semantic search and rule-based logic",
+   "Built a clinical ML pipeline for heart disease prediction using SMOTE+ENN and ensemble models (XGBoost, LightGBM, Random Forest) — 80–85% ROC-AUC",
+    "Hands-on with deep learning architectures (BERT, DistilRoBERTa, HuggingFace Transformers) and RAG techniques"
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in CSE(AIML)",
+      "institution": "panipat institute of engineering and technology",
+      "year": "2022-2026",
+      "details": "Specialization in AI & ML"
+    }
+  ]
+
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Vineet Dhiman",
+  "title": "AI Engineer",
+  "roles": ["Machine Learning", "Deep Learning", "LLMs", "RAG", "Agentic AI", "Generative AI", "FastAPI", "AI Automation"],
+  "tagline": "AI Engineer • ML Engineer • Agentic AI Developer",
+  "bio": "I build intelligent systems that bridge research and production. Specializing in machine learning, agentic frameworks, RAG pipelines, and end-to-end ML platforms that ship.",
+  "location": "India",
+  "availability": "Open to opportunities",
+  "email": "vineetdhiman092005@gmail.com",
+  "resumeUrl": "/resume/Vineet_Dhiman_Resume.pdf",
+  "typingSpeed": 100,
+  "social": [
+    { "name": "GitHub", "url": "https://github.com/vineet0904", "icon": "github" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/vineet-dhiman-438a02286", "icon": "linkedin" },
+    { "name": "Instagram", "url": "https://instagram.com/iamvineet_09", "icon": "instagram" }
+  ]
+}

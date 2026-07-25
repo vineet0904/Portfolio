@@ -1,0 +1,32 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Chen",
+      "role": "CTO, AI Startup",
+      "content": "Vineet is one of the most talented AI engineers I've worked with. His ability to bridge research and production is exceptional.",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200"
+    },
+    {
+      "id": 2,
+      "name": "Marcus Rodriguez",
+      "role": "Lead ML Engineer, Tech Co",
+      "content": "His RAG pipeline architecture saved us months of development. Truly understands production AI systems.",
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200"
+    },
+    {
+      "id": 3,
+      "name": "Priya Sharma",
+      "role": "Research Director",
+      "content": "Vineet's contributions to our NLP research were invaluable. He has a rare combination of deep theory and practical skills.",
+      "avatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200"
+    },
+    {
+      "id": 4,
+      "name": "James Wilson",
+      "role": "Senior Engineer, Google",
+      "content": "An exceptional engineer who delivers. His agentic AI frameworks are production-ready and well-architected.",
+      "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200"
+    }
+  ]
+}

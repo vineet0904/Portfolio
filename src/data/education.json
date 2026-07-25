@@ -1,0 +1,39 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachelor of Technology (Computer Science - AI & ML)",
+      "institute": "Panipat Institute of Engineering & Technology",
+      "location": "Samalkha, Haryana",
+      "duration": "2022 - 2026",
+      "highlights": [
+        "Specialization in Artificial Intelligence & Machine Learning",
+        "CGPA: 7.5",
+        "Built Machine Learning and NLP projects",
+        "Worked on LLMs, RAG and Agentic AI"
+      ]
+    },
+    {
+      "id": 2,
+      "degree": "Senior Secondary (Class XII)",
+      "institute": "DAV Centenary Public School",
+      "location": "Panipat",
+      "duration": "2022",
+      "highlights": [
+        "CBSE Board",
+        "I completed my Senior Secondary (Class XII) education from DAV Centenary Public School, Panipat under the CBSE Board with a Non med stream."
+      ]
+    },
+    {
+      "id": 3,
+      "degree": "Secondary (Class X)",
+      "institute": "DAV Centenary Public School",
+      "location": "Panipat",
+      "duration": "2020",
+      "highlights": [
+        "CBSE Board",
+        "I completed my Secondary (Class X) education from DAV Centenary Public School, Panipat under the CBSE Board. This stage laid the foundation of my academic journey "
+      ]
+    }
+  ]
+}
